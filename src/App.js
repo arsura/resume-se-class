@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import InfoCard from './components/InfoCard';
 import Grid from '@material-ui/core/Grid';
 
