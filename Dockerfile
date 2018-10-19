@@ -8,8 +8,7 @@ COPY package.json /usr/src/app/
 
 RUN npm install
 RUN npm install react-scripts -g
-RUN npm install serve
 
 COPY . /usr/src/app
 
-CMD [ "npm", "build" ]
+CMD [ "npm", "start" ]

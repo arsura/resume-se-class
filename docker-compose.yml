@@ -6,5 +6,4 @@ services:
     container_name: resume
     ports:
       - "8000:3000"
-    command: serve -s build
     
